@@ -6,7 +6,8 @@
 <br>
 
 <p align="center">
-  <img alt="Frontend" src="./devradar.png" width="100%">
+  <img alt="Frontend" src="./promotion1.jpeg" width="50%" style="padding: 10px">
+  <img alt="Frontend" src="./promotion2.jpeg" width="50%" style="padding: 10px">
 </p>
 
 ## :rocket: Tecnologias
