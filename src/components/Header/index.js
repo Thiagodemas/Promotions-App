@@ -9,9 +9,9 @@ import styles from './styles';
 
 const Header = () => (
   <View style={styles.container}>
-    <Feather name="chevron-left" size={16} color="#E02041"/>
-    <Text style={styles.title}>Profile</Text>
-    <Feather name="more-horizontal" size={16} color="#E02041"/>
+    <Feather name="chevron-left" size={24} style={styles.icon}/>
+    <Text style={styles.title}>Profile do Vendedor</Text>
+    <Feather name="more-horizontal" size={24} style={styles.icon}/>
   </View>
 );
 
