@@ -18,4 +18,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Promotion App é um aplicativo para mostrar as principais do mercado, o intuido do projeto foi estudar a criação do layout 
+Promotion App é um aplicativo que ajuda a encontrar cupons de desconto, códigos promocionais e ofertas de milhares de loja, a criação do layout foi baseado no projeto online da Rocketseat.  
