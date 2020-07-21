@@ -12,7 +12,7 @@ const SubHeader = () => (
     <View style={styles.profileContainer}>
       <Image
         style={styles.avatar}
-        source={{ uri: 'https://cdn.desconto.com.br/img/merchants/118701/360-logo/v1/shoptime-descontos.png' }}
+        source={{ uri: 'https://abri.com.br/wp-content/uploads/2019/10/telefone-shoptime.jpg' }}
       />
 
       <View style={styles.profileInfo}>
