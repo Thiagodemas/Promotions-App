@@ -12,11 +12,11 @@ const SubHeader = () => (
     <View style={styles.profileContainer}>
       <Image
         style={styles.avatar}
-        source={{ uri: 'https://avatars0.githubusercontent.com/u/6172978?s=460&u=429ed7767e15d8e5202b1ea7f92b585cd5e2294f&v=4' }}
+        source={{ uri: 'https://cdn.desconto.com.br/img/merchants/118701/360-logo/v1/shoptime-descontos.png' }}
       />
 
       <View style={styles.profileInfo}>
-        <Text style={styles.name}>Thiago Demas</Text>
+        <Text style={styles.name}>Shoptime</Text>
         <Text style={styles.bio}>Confira nossas promoções de Computadores, e compre hoje mesmo seu produto. Encontre e compre aqui!</Text>
 
         <View style={styles.buttonContainer}>

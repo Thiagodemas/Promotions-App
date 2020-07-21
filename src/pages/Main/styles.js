@@ -13,16 +13,20 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
   },
-  containerText: {
-    height: 120,
-    paddingTop: metrics.headerPadding,
-    paddingHorizontal: metrics.padding,
-    alignItems: 'center',
+  containerProducts: {
+    flex: 1,
+    paddingHorizontal: 24,
+    paddingTop: 50,
+    marginHorizontal: 'auto',
+    textAlign: 'center'
   },
   titleText: {
-    fontSize: 20,
+    fontSize: 30,
+    marginBottom: 16,
+    marginTop: 48,
     color: '#13131a',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    textAlign: 'center'
   },
 
   description: {
