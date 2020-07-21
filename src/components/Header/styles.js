@@ -1,16 +1,26 @@
 import { StyleSheet } from 'react-native';
-import Constants from 'expo-constants';
+import { metrics, fonts, colors } from '../../styles';
 
-export default StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    paddingHorizontal: 15,
-    paddingTop: Constants.statusBarHeight + 20,
-
+    backgroundColor: colors.white,
+    height: 100,
+    paddingTop: metrics.headerPadding,
+    paddingHorizontal: metrics.padding,
+    borderBottomWidth: 1,
+    borderColor: colors.lighter,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
-  tabBar: {
-    height: 50
-  }
 
+  icon: {
+    color: colors.primary,
+  },
 
+  title: {
+    fontSize: fonts.big,
+  },
 });
+
+export default styles;

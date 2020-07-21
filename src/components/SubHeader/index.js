@@ -2,7 +2,9 @@ import React from 'react';
 import {View, Text, Image} from 'react-native';
 
 
+
 import styles from './styles';
+import Button from './../Button';
 
 
 const SubHeader = () => (
@@ -14,7 +16,8 @@ const SubHeader = () => (
       <Text style={styles.bio}>Head de Programação na Rocketseat fazendo live de layout.</Text>
 
       <View style={styles.buttonContainer}>
-
+        <Button style={styles.firstButton}>Message</Button>
+        <Button type="outline">Follow</Button>
       </View>
 
       </View>
