@@ -3,7 +3,7 @@ import { metrics, fonts, colors } from '../../styles';
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: colors.white,
+    backgroundColor: colors.primary,
     height: 100,
     paddingTop: metrics.headerPadding,
     paddingHorizontal: metrics.padding,
@@ -15,11 +15,13 @@ const styles = StyleSheet.create({
   },
 
   icon: {
-    color: colors.primary,
+    color: 'white',
   },
 
   title: {
     fontSize: fonts.big,
+    color: 'white',
+
   },
 });
 

@@ -16,6 +16,8 @@ export default class ProductList extends Component {
         title: 'Computador Gamer BRX Powered By Asus',
         description: 'Intel Core i3-9100F, 8GB, SSD 240GB, Asus NVIDIA GeForce GTX 1650 4GB, Windows 10 Pro',
         price: 'R$4.050,00',
+        promotion: '-30%'
+
       },
       {
         id: 2,
@@ -23,6 +25,8 @@ export default class ProductList extends Component {
         title: 'Computador Gamer G-Fire AMD A6-7400K',
         description: '8GB, HD 1TB, Radeon R5 integrada, Linux - HTAVA R83',
         price: 'R$3.370,00',
+        promotion: '-50%'
+
       },
       {
         id: 3,
@@ -30,6 +34,8 @@ export default class ProductList extends Component {
         title: 'Monitor Gamer LED LG 34',
         description: 'UltraWide Curvo, Full HD, IPS, 2 HDMI, DisplayPort, FreeSync, 144Hz, 1ms, Altura Ajustável - 34GL750',
         price: 'R$4.430,00',
+        promotion: '-60%'
+
       },
       {
         id: 4,
@@ -37,6 +43,8 @@ export default class ProductList extends Component {
         title: 'Notebook Asus AMD Ryzen 5 3500U',
         description: 'Vega 8, 8GB, 1TB, 15.6", Windows 10 Home - M509DA',
         price: 'R$3.370,00',
+        promotion: '-10%'
+
       },
       {
         id: 5,
@@ -44,6 +52,8 @@ export default class ProductList extends Component {
         title: 'Monitor Philips LED',
         description: 'LCD 18.5", HDMI, VGA - UltraWide Curvo, Full HD, IPS, 2 HDMI, DisplayPort, FreeSync, 144Hz,',
         price: 'R$413,00',
+        promotion: '-20%'
+
       },
       {
         id: 6,
@@ -51,6 +61,7 @@ export default class ProductList extends Component {
         title: 'Computador Gamer EasyPC',
         description: 'Intel Core i5-2400, 8GB, 1TB, NVIDIA GT 210, Linux - 33676',
         price: 'R$2.209,00',
+        promotion: '-20%'
       }
     ],
   };

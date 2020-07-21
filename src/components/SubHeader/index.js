@@ -17,7 +17,7 @@ const SubHeader = () => (
 
       <View style={styles.profileInfo}>
         <Text style={styles.name}>Thiago Demas</Text>
-        <Text style={styles.bio}>Head de Programação na Rocketseat fazendo live de layout.</Text>
+        <Text style={styles.bio}>Confira nossas promoções de Computadores, e compre hoje mesmo seu produto. Encontre e compre aqui!</Text>
 
         <View style={styles.buttonContainer}>
           <Button style={styles.firstButton}>Message</Button>

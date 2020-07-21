@@ -7,9 +7,9 @@ import { Feather } from '@expo/vector-icons';
 
 import styles from './styles';
 
-const Product = ({ product: { image, title, description, price } }) => (
+const Product = ({ product: { image, title, description, price, promotion } }) => (
   <View style={styles.container}>
-    <Feather name="alert-circle" size={16} style={styles.checkIcon}/>
+      <Text style={styles.checkIcon}> {promotion}</Text>
     <View style={styles.imageContainer}>
       <Image source={{ uri: image }} style={styles.image} />
     </View>
